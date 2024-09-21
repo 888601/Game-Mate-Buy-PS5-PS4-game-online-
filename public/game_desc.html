@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="/images/fevi.png">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/NAV.css">
+  <link rel="stylesheet" href="/styles/game_desc.css">
+  
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title></title>
+</head>
+<body>
+
+    <div class = header>
+        <div class = logo-container>
+           <img src="/images/logo.png" alt="Logo Here" >
+         </div>
+				
+    <nav class="navbar">
+    <!-- Move the <img> tag inside the <nav> element -->
+    
+    <ul class="menu">
+        <li><a href="./homepage.html">HOME</a></li>
+        <li class="shop-now">
+            <a href="#">SHOP NOW &darr;</a>
+            <div class="dropdown">
+                <a href="./ps5_games.html">PS5 Games</a>
+               
+                <a href="Accesories.html">Accessories</a>
+      </div>
+      <li> <a href="About.html">About Us </a>  </li>
+    </li>
+	<li>
+      <div class="search-container">
+	 
+  <input type="text" id="searchInput" placeholder="Search">
+  <i class="fas fa-search search-icon" onclick="performSearch(); showSuggestions()"></i>
+</div>
+	  
+	  <li>
+      <a href="shoping.html">
+      <li>
+        <a href="#">
+          <i class="fas fa-shopping-cart" onclick="cart.cart_toggle()"></i>
+        </a>
+      </li> <!-- Shopping cart icon -->
+</a></li> <!-- Shopping cart icon -->
+    </ul>
+  </ul>
+</nav>
+</div>
+ 
+<div id="game_desc">
+    <!-- Game details will be displayed here using JavaScript -->
+    </div>
+<div id="acc_desc">
+    <!-- Game details will be displayed here using JavaScript -->
+    </div>
+
+    <footer>
+      <table style="width: 100%;">
+        <tr>
+          <!-- Heading 1: Logo -->
+          <th style="padding-right: 20px;">
+            <div class="footer-logo">
+              <img src="/images/logo.png" alt="Logo">
+            </div>
+          </th>
+          <!-- Heading 2: Company -->
+          <th colspan="2" style="padding-left: 20px; padding-right: 20px; text-align: center; font-size: 24px;">Company</th>
+          <!-- Heading 2: Follow Us On -->
+          <th colspan="4" style="padding-left: 20px; font-size: 24px;">Follow Us On</th>
+        </tr>
+        <tr>
+          <!-- Under Heading 1: Phone No -->
+          <td style= "font-size: 20px;"><i class="fab fa-whatsapp"> &nbsp;</i>Phone No</td>
+          <!-- Under Heading 2: About Us -->
+          <td colspan="2" style="padding-left: 20px; padding-right: 20px; font-size: 20px;text-align: center;"><a href="/contactus.html" style="text-decoration: none; color: white;"> Contact Us </a></td>
+          <td colspan="4" style="padding-RIGHT: 150px; font-size: 20px;">
+            <!-- Under Heading 2: Social Media Icons -->
+            <div class="footer-icons">
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>&nbsp;
+              <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>&nbsp;
+              <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>&nbsp;
+              <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>&nbsp;
+            </div>
+            
+          </td>
+        </tr>
+        <tr>
+          <!-- Empty cell for spacing -->
+          <td></td>
+          <!-- Under Heading 2: Delivery Partners -->
+         
+        </tr>
+        <tr>
+                
+          <!-- Under Heading 1: Email -->
+          <td colspan="8" style= " font-size: 20px;"><i class="fas fa-envelope">&nbsp; &nbsp</i>Email</td>
+        </tr>
+        <tr>
+          <td></td><td></td>
+        <td colspan="2" style=" font-size: 20px; text-align: right;">Delivery Partners :<i class="fas fa-shipping-fast"></i> Blue Dart
+          <i class="fas fa-shipping-fast"></i> DHL
+          <i class="fas fa-shipping-fast"></i> FedEx
+        </td>
+        </tr>
+      </table>
+    </footer>
+    
+	  <script src="/scripts/search.js"></script>
+  <script src="/scripts/game_desc.js"></script>
+  <script src="/scripts/acc_desc.js"> </script>
+
+</body>
+</html>

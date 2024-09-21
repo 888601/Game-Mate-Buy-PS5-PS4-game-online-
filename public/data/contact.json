@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "whatsapp_logo",
+      "icon": "fab fa-whatsapp",
+      "text": "For any queries you can Whatsapp us",
+      "link": "https://api.whatsapp.com/send?phone=1234567890"
+    },
+    {
+      "id": "email_logo",
+      "icon": "far fa-envelope",
+      "text": "For any queries you can E-mail us at",
+      "link": "mailto:example@example.com"
+    },
+    {
+      "id": "call_logo",
+      "icon": "fas fa-phone-alt",
+      "text": "For any queries you can Call us at",
+      "link": "tel:+1234567890"
+    },
+    {
+      "id": "address_logo",
+      "icon": "fas fa-map-marker-alt",
+      "text": "Visit Our Office",
+      "link": "https://www.google.com/maps/place/@43.6274247,-79.6771064,17z/data=!3m1!4b1!4m6!3m5!1s0x882b409fb8a947f9:0x418640e93fdafd13!8m2!3d43.6274208!4d-79.6745315!16s%2Fg%2F11c1ldpfm2?entry=ttu"
+    }
+  ]
+}

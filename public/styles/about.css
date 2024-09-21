@@ -1,0 +1,64 @@
+
+
+.quote {
+    font-size: 24px; /* Set font size */
+    font-style: italic; /* Italicize the text */
+    text-align: center; /* Center the text */
+    color:purple; /* Set text color to white */
+}
+.quote-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+    height: 100vh; /* Set the height to cover the full viewport height */
+    background-color: black /* Set the background color to purple */
+     /* Set the text color to white */
+}
+
+h2 {
+    margin: 100px;
+}
+.quote-image {
+    width: 30%; /* Set the width of the image to 30% of the container */
+    max-height: 50%; /* Ensure the image maintains its aspect ratio */
+   /* Scale the image to cover the container */
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+/* Style for the container holding the co-founders */
+#cofounders-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+/* Style for each co-founder */
+.cofounder {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style for co-founder image */
+.cofounder img {
+    width: 150px; /* Adjust image width as needed */
+    height: 150px; /* Adjust image height as needed */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+/* Style for co-founder name */
+.cofounder p {
+    margin: 5px 0;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Style for LinkedIn icon */
+.cofounder a {
+    color: #0077b5; /* LinkedIn blue color */
+    font-size: 24px; /* Adjust font size as needed */
+    text-decoration: none;
+    display: block; /* Make the icon a block element to control its position */
+    margin-top: 5px; /* Adjust margin as needed */
+}

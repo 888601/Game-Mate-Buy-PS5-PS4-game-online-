@@ -1,0 +1,121 @@
+/* Reset default margin and padding for better consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-img-case img {
+  max-width: 400px; /* Set your desired max-width here */
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-summary-case {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.product-summary-case h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-summary-case p {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.add-to-cart {
+ 
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+
+.product-meta {
+  margin-top: 20px;
+}
+
+.product-meta span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.product-meta a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.video-link {
+  margin-top: 15px;
+}
+
+.checkpincodeservisability {
+  margin-top: 15px;
+}
+
+.checkpincodeservisability p {
+  font-size: 18px;
+}
+
+.checkpincodeservisability .fas {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.checkpincodeservisability input[type="number"] {
+  padding: 4px 10px;
+  border: 1px solid #a4a4a4;
+  border-radius: 5px;
+  background-image: url("https://gameloot.in/wp-content/uploads/2021/02/location-pin.png");
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.checkpincodeservisability button.CheckPinService {
+  background: #000000;
+  color: #ffffff;
+  border: 0;
+  padding: 4px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .product-summary-case {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}

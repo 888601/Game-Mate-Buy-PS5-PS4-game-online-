@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results</title>
+   <link rel="icon" type="image/x-icon" href="/images/fevi.png">
+  <link rel="stylesheet" href="/styles/style.css">
+   <link rel="stylesheet" href="/styles/cartui_css.css">
+    <link rel="stylesheet" href="/styles/NAV.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Reset default margin and padding for better consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#searchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.search-result {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-result h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-result p {
+  margin-bottom: 10px;
+}
+
+.search-result img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  #searchResults {
+    grid-template-columns: 1fr;
+  }
+}
+
+  </style>
+</head>
+<body>
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart-window">
+      <h2>Your Shopping Cart</h2>
+      <!-- Cart items will be displayed here -->
+    </div>
+  </div>
+<div class="floating-cart-btn" id="floatingCartBtn">
+    🛒
+</div>
+
+<div class = header>
+        <div class = logo-container>
+           <img src="/images/logo.png" alt="Logo Here" >
+         </div>
+				
+<nav class="navbar">
+    <!-- Move the <img> tag inside the <nav> element -->
+    
+    <ul class="menu">
+        <li><a href="homepage.html">HOME</a></li>
+        <li class="shop-now">
+            <a href="#">SHOP NOW &darr;</a>
+            <div class="dropdown">
+                <a href="ps5_games.html">PS5 Games</a>
+               
+                <a href="Accesories.html">Accessories</a>
+      </div>
+      <li> <a href="About.html">About Us </a>  </li>
+    </li>
+	<li>
+      <div class="search-container">
+	 
+  <input type="text" id="searchInput" placeholder="Search">
+  <i class="fas fa-search search-icon" onclick="performSearch(); showSuggestions()"></i>
+</div>
+	  <li>
+    
+
+    </li>
+	<div id="suggestions"></div>
+	  <li>
+      <a href="shoping.html">
+      <li>
+        <a href="#">
+          <i class="fas fa-shopping-cart" onclick="cart.cart_toggle()"></i>
+        </a>
+      </li> <!-- Shopping cart icon -->
+</a></li> <!-- Shopping cart icon -->
+    </ul>
+  </ul>
+</nav>
+</div>
+  <h1>Search Results</h1><br>
+  <div id="searchResults"></div>
+  
+ <script>
+    const searchTerm = decodeURIComponent(window.location.search.replace('?q=', '')); // Get the decoded search term from the URL
+    const gameData = []; // Initialize an empty array to store the game data
+
+    // Fetch the JSON data for games and accessories and populate the gameData array
+    const fetchGames = fetch('/data/game_title.json').then(response => response.json());
+    const fetchAccessories = fetch('/data/acc.json').then(response => response.json());
+
+    Promise.all([fetchGames, fetchAccessories])
+      .then(data => {
+        gameData.push(...data[0]); // Push game data into the gameData array
+        gameData.push(...data[1]); // Push accessory data into the gameData array
+        displaySearchResults(searchTerm, gameData); // Call function to display search results
+      })
+      .catch(error => console.error('Error fetching JSON:', error));
+
+    function displaySearchResults(searchTerm, gameData) {
+      const searchResultsDiv = document.getElementById('searchResults');
+
+      // Filter game titles based on search term
+      const filteredGames = gameData.filter(game => game.title.toLowerCase().includes(searchTerm));
+
+      if (filteredGames.length > 0) {
+        // Display search results
+        filteredGames.forEach(game => {
+          const gameDiv = document.createElement('div');
+          const gameLink = document.createElement('a');
+          gameLink.href = `game_desc.html?id=${game.id}`; // Link to the game_desc page with the game's ID
+          gameLink.innerHTML = `
+            <h2>${game.title}</h2>
+            <p>${game.description}</p>
+            <img src="${game.img}" alt="${game.title}">
+          `;
+          gameDiv.appendChild(gameLink);
+          searchResultsDiv.appendChild(gameDiv);
+        });
+      } else {
+        // Display no results found message
+        searchResultsDiv.innerHTML = '<p>No results found.</p>';
+      }
+    }
+</script>
+
+  
+</body>
+</html>

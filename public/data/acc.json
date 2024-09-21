@@ -1,0 +1,37 @@
+[
+    {
+        "id": 101,
+        "title": "Wireless Charger",
+        "description": "PS5 Remote Controller Charger.",
+        "genre": "Accesories",
+        "price": "90.99",
+        
+        "img": "/images/console.jpg"
+      },
+      {
+        "id": 202,
+        "title": "Headphone",
+        "description": "Headphones for PS5 for better gaming experience",
+        "genre": "PS5",
+        "price": "69.99",
+        "img": "/images/head.jpg"
+      },
+    {
+      "id": 303,
+      "title": "VR",
+      "description": "VR for PS5",
+      "genre": "PS5",
+      "price": 149.99,
+      "img": "/images/vr.jpg"
+    },
+    {
+      "id": 404,
+      "title": "Staring Wheel",
+      "description": "For car games",
+      "genre": "PS5",
+      "price": 159.99,
+      
+      "img": "/images/wheel.jpg"
+    }
+	
+]

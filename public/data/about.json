@@ -1,0 +1,25 @@
+{
+    "cofounders": [
+        {
+            "image": "/images/naruto.jpeg",
+            "name": "Subhash Ghakhar",
+            "position": "Co Founder",
+            "linkedin": "https://www.linkedin.com/in/johndoe",
+            "icon": "fab fa-linkedin"
+        },
+        {
+            "image": "/images/sasuke.jpeg",
+            "name": "Mukul Rattan",
+            "position": "Co Founder",
+            "linkedin": "https://www.linkedin.com/in/janesmith",
+            "icon": "fab fa-linkedin"
+        },
+        {
+            "image": "/images/sakura.jpeg",
+            "name": "Dilpreet Kaur",
+            "position": "Co Founder",
+            "linkedin": "https://www.linkedin.com/in/janesmith",
+            "icon": "fab fa-linkedin"
+        }
+    ]
+}

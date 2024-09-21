@@ -1,0 +1,222 @@
+[
+    {
+        "id": 21,
+        "title": "Hogwarts Legacy",
+        "description": "Embark on a magical journey in the wizarding world as a student at Hogwarts.",
+        "genre": "Action RPG",
+        "price": "59.99",
+        "youtubeLink": "https://www.youtube.com/watch?v=1O6Bn1IBSGk",
+        "img": "/images/hogwarts.jpg"
+      },
+      {
+        "id": 22,
+        "title": "God of War: Ragnarok",
+        "description": "Continue Kratos' journey in the Norse mythology, facing new challenges and gods.",
+        "genre": "Action Adventure",
+        "price": "69.99",
+        "youtubeLink": "https://www.youtube.com/watch?v=5V5sTrJqk5w",
+        "img": "/images/gow.jpg"
+      },
+    {
+      "id": 1,
+      "title": "The Last of Us Part II",
+      "description": "An emotional action-adventure game set in a post-apocalyptic world.",
+      "genre": "Action",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=7K2bbZ5z9HA",
+      "img": "/images/lou2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Demon's Souls",
+      "description": "A remake of the classic action RPG with stunning graphics and challenging gameplay.",
+      "genre": "Action RPG",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=2TMs2E6cms4",
+      "img": "/images/demon-souls.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Spider-Man: Miles Morales",
+      "description": "Play as Miles Morales and protect New York City as the new Spider-Man.",
+      "genre": "Action",
+      "price": 39.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=gHzuHo80U2M",
+      "img": "/images/miles.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Astro's Playroom",
+      "description": "Explore a delightful platformer showcasing the features of the PS5's DualSense controller.",
+      "genre": "Platformer",
+      "price": 1.00,
+      "youtubeLink": "https://www.youtube.com/watch?v=IqmaaFrpPn0",
+      "img": "/images/astro.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ratchet & Clank: Rift Apart",
+      "description": "Jump between dimensions in this action-packed platformer with stunning visuals.",
+      "genre": "Action",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=6acSdNlPwFs",
+      "img": "/images/ratchet.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Returnal",
+      "description": "Uncover the mysteries of an alien planet in this roguelike third-person shooter.",
+      "genre": "Action",
+      "price": 69.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=DLykRBrP-Rs",
+      "img": "/images/returnal.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Sackboy: A Big Adventure",
+      "description": "Join Sackboy in a charming platforming adventure to save Craftworld.",
+      "genre": "Platformer",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=XqYzdLTQkaY",
+      "img": "/images/sack.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Assassin's Creed Valhalla",
+      "description": "Embark on a Viking adventure in this open-world action RPG.",
+      "genre": "Action RPG",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=ssrLJz4bN_M",
+      "img": "/images/valhalla.jpg"
+    },
+    {
+      "id": 9,
+      "title": "FIFA 21",
+      "description": "Experience the excitement of soccer with improved gameplay and realistic graphics.",
+      "genre": "Sports",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=Zrj8ZrwDzTw",
+      "img": "/images/fifa21.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Deathloop",
+      "description": "Navigate a time loop as an assassin in this stylish action game.",
+      "genre": "Action",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=bOyVKNg0Yw0",
+      "img": "/images/deathloop.jpg"
+    },
+    
+    {
+      "id": 11,
+      "title": "Resident Evil Village",
+      "description": "Survive a horror-filled adventure in a mysterious village.",
+      "genre": "Survival Horror",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=KXI0qDVaCQk",
+      "img": "/images/re-village.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Hitman 3",
+      "description": "Travel the world as Agent 47 and eliminate high-profile targets.",
+      "genre": "Action",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=cmoFvu-ALqU",
+      "img": "/images/hitman.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Ghost of Tsushima",
+      "description": "Become a samurai and defend feudal Japan against Mongol invaders.",
+      "genre": "Action",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=WBlvjy-G_5M",
+      "img": "/images/tsushima.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Hitman 2",
+      "description": "Travel the world as Agent 47 and eliminate high-profile targets.",
+      "genre": "Action",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=cmoFvu-ALqU",
+      "img": "/images/hitman2.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Godfall",
+      "description": "Embark on a high-impact action combat experience in a fantasy world.",
+      "genre": "Action RPG",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=B_Smdm13XYk",
+      "img": "/images/godfall.png"
+    },
+    {
+      "id": 16,
+      "title": "Watch Dogs: Legion",
+      "description": "Hack and explore an open-world rendition of London in this action game.",
+      "genre": "Action",
+      "price": 39.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=1pP_l1Q_3ak",
+      "img": "/images/watchdog-legion.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Outriders",
+      "description": "Team up for a cooperative shooter set in a dark sci-fi universe.",
+      "genre": "Shooter",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=61nCtzpDS78",
+      "img": "/images/outriders.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Marvel's Spider-Man: Remastered",
+      "description": "Experience the beloved superhero story with improved graphics and performance.",
+      "genre": "Action",
+      "price": 49.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=buOTWzGBuUk",
+      "img": "/images/sp-2.jpeg"
+    },
+    {
+      "id": 19,
+      "title": "Yakuza: Like a Dragon",
+      "description": "Join Ichiban Kasuga and experience the Yakuza underworld in a new way.",
+      "genre": "Action RPG",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=8q5nMR7u6YI",
+      "img": "/images/yakuza.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Far Cry 6",
+      "description": "Explore a tropical paradise turned dictatorship and join the revolution.",
+      "genre": "Action",
+      "price": 59.99,
+      "youtubeLink": "https://www.youtube.com/watch?v=Jh_6mGI5Nb4",
+      "img": "/images/fc6.jpg"
+    },
+    
+        {
+          "id": 23,
+          "title": "God of War 4",
+          "description": "Witness Kratos' brutal quest for redemption as he battles gods and monsters.",
+          "genre": "Action Adventure",
+          "price": 19.99,
+          "youtubeLink": "https://www.youtube.com/watch?v=0Hwhnyufx8w",
+          "img": "/images/gow4.jpg"
+        },
+		{
+		  "id": 24,
+          "title": "WWE 2K23",
+          "description": ".WWE 2K23 is the latest installment in the long-running series of professional wrestling video games, and the successor to WWE 2K22.",
+          "genre": "Action Adventure",
+          "price": 19.99,
+          "youtubeLink": "https://www.youtube.com/watch?v=0Hwhnyufx8w",
+          "img": "./images/wwe.jpg"
+        }
+      
+  ]
+  

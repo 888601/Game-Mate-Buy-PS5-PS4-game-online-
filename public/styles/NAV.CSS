@@ -1,0 +1,68 @@
+/* ... Existing CSS code ... */
+
+/* Navigation bar styles */
+.navbar {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu li a:hover {
+  color: #aaa;
+}
+
+/* Shopping cart icon styles */
+.fa {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa-shopping-cart:before {
+  content: "\f07a";
+  color: white;
+  font-size: 18px;
+}
+
+/* Shopping cart icon container styles */
+.shopping-cart {
+  display: flex;
+  align-items: center;
+}
+
+/* ... Existing CSS code ... */
+.suggestions {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.suggestion	 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+}
